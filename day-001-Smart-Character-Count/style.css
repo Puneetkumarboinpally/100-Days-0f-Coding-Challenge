@@ -41,15 +41,6 @@ textarea:focus {
   outline: none;
   border: 2px solid rgb(255, 255, 255);
 }
-button {
-  padding: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: grey;
-  border: none;
-  cursor: pointer;
-  margin-top: 15px;
-}
 .count {
   display: flex;
   justify-content: space-between;
