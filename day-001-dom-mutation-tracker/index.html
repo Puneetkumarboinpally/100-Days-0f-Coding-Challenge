@@ -11,13 +11,16 @@
       <h1>Smart Character Counter</h1>
       <textarea
         class="text-input"
+        maxlength="200"
         placeholder="Enter your text here...."
       ></textarea>
+
       <div class="count">
         <p class="char-count">Total Characters: 0</p>
-        <p class="word-count">Words: 0</p>
+        <p class="word-count">Word count: 0</p>
       </div>
-      <p class="warning">Warning: You are close to the limit.</p>
+      <button type="submit">Submit</button>
+      <p class="warning"></p>
     </div>
 
     <script src="script.js"></script>
