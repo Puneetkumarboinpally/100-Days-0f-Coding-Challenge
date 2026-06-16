@@ -4,6 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>password strength checker</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Password Strength Checker</h1>
+      <div class="input-field">
+        <input
+          type="password"
+          class="password-input"
+          placeholder="Enter your password here..."
+        />
+        <span class="toggle">Hide</span>
+      </div>
+
+      <div class="strength">
+        <div class="strength-bar"></div>
+      </div>
+      <p class="message">start typing...</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
