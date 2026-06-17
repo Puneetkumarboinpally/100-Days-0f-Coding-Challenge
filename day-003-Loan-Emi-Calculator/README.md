@@ -64,12 +64,6 @@ This type of calculator is commonly used by banks, mortgage providers, fintech a
 
 ---
 
-## Screenshot
-
-(Add screenshot here)
-
----
-
 ## Author
 
 Puneet Kumar Boinpally
