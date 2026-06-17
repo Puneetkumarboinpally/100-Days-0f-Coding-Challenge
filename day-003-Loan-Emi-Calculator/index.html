@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Loan EMI Calculator</h1>
+      <div class="card">
+        <div class="amount-container">
+          <label for="amount">Loan Amount</label>
+          <input
+            type="number"
+            class="amount-input"
+            id="amount"
+            placeholder="Enter Loan Amount..."
+          />
+        </div>
+        <div class="interest-container">
+          <label for="interest">Interest Rate (% per year)</label>
+          <select name="interest" id="interest" class="interest">
+            <option value="5">5%</option>
+            <option value="6">6%</option>
+            <option value="7">7%</option>
+            <option value="8">8%</option>
+            <option value="9">9%</option>
+          </select>
+        </div>
+        <div class="tenure-container">
+          <label for="tenure">Loan Tenure (Years)</label>
+          <select name="tenure" id="tenure" class="tenure">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">5</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
