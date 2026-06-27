@@ -6,7 +6,7 @@ import Bottom from "./Section/Bottom";
 const Card = ({ logo, company, date, post, tag1, tag2, pay, location }) => {
   return (
     <div
-      className="p-4 bg-white rounded-xl 
+      className="p-6 bg-white rounded-xl 
     flex flex-col justify-between"
     >
       <Top logo={logo} />
