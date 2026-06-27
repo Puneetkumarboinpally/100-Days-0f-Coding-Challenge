@@ -1,6 +1,5 @@
 import React from "react";
-import Card from "./components/Card";
-
+import Card from "./components/Card.jsx";
 const App = () => {
   const jobOpenings = [
     {
@@ -135,12 +134,8 @@ const App = () => {
       location: "Hyderabad, India",
     },
   ];
-
   return (
-    <div
-      className="min-h-screen w-full bg-black text-white grid p-8 
-    sm:grid-cols-3 md:grid-cols-4 gap-4"
-    >
+    <div className="h-screen bg-black grid grid-cols-4 gap-6 p-8">
       {jobOpenings.map((elem, idx) => (
         <Card
           key={idx}
