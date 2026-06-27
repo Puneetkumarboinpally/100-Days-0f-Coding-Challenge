@@ -7,7 +7,7 @@ const Top = ({ logo }) => {
         src={logo}
         className="w-10 h-10 rounded-full p-1 border border-grey-200 "
       />
-      <div className="border-1 py-1 px-2 rounded-md font-bold bg-gray-200 ">
+      <div className="border-1 py-1 px-2 rounded-md font-bold bg-gray-200 hover:translate-y-[-2px] transition-transform duration-300">
         Save <span>💀</span>
       </div>
     </div>
