@@ -1,6 +1,6 @@
 import React from "react";
 import Top from "./Section/Top";
-import Center from "./Section/center";
+import Center from "./Section/Center";
 import Bottom from "./Section/Bottom";
 
 const Card = ({ logo, company, date, post, tag1, tag2, pay, location }) => {
