@@ -30,6 +30,10 @@ const App = () => {
 
   return (
     <div>
+      {loading && <p>Loading...</p>}
+
+      {error && <p>{error}</p>}
+
       {profile.map((elem, idx) => (
         <div key={idx}>
           <img src={elem.picture.medium} alt={elem.name.first} />
